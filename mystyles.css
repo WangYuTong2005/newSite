@@ -53,5 +53,10 @@
               background-color:#9bf6ff;
               color: white;
             }
-            
+            .inputbox {
+              padding: 20px;
+              color:black;
+              background-color: #9bf6ff;
+              float:right;
+            }
             
