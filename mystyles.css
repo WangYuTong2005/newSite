@@ -1,0 +1,98 @@
+            body {
+                font-family: sans-serif;
+            }
+            
+            .container {
+                margin: 40px;
+                background-color:#caffbf;
+                padding: 20px;
+                text-align: center;
+            }
+            
+            .style1 {
+                margin: 20px;
+                background-color:#fdffb6;
+                padding: 20px;
+                color:#ffd6a5;
+                text-align: center;
+            }
+
+            .style2 {
+                margin: 20px;
+                background-color:#ffadad ;
+                padding: 20px;
+                text-align: center;
+
+            }
+            .style3 {
+                margin: 20px;
+                background-color:#caffbf ;
+                color: cornflowerblue
+                padding: 20px;
+                text-align: center;
+
+            }
+            
+            /* Add a black background color to the top navigation */
+            .topnav {
+              background-color:#ffc6ff;
+              overflow: hidden;
+              margin: 0px;
+            }
+
+            /* Style the links inside the navigation bar */
+            .topnav a {
+              float: left;
+              color:#bdb2ff;
+              text-align: center;
+              padding: 14px 16px;
+              text-decoration: none;
+              font-size: 25px;
+            }
+
+            /* Change the color of links on hover */
+            .topnav a:hover {
+              background-color:#a0c4ff;
+              color: black;
+            }
+
+            /* Add a color to the active/current link */
+            .topnav a.active {
+              background-color:#9bf6ff;
+              color: white;
+            }
+            .inputbox {
+              padding: 20px;
+              color:black;
+              background-color: #9bf6ff;
+              float:right;
+            }
+            .picture {
+              width: 90%;
+              background-color: white;
+              box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+              margin-bottom: 25px;
+            }
+            .container2 {
+              text-align: center;
+              padding: 10px 20px;
+            }
+            .parent {
+              position: relative;
+              top: 0;
+              left: 0;
+            }
+            .image1 {
+              position: relative;
+              top: 50;
+              left: 100;
+              border: 1px red solid;
+            }
+            .image2 {
+              position: absolute;
+              top: -100px;
+              left: 145px;
+              border: 1px green solid;
+            }
+     
+                  
