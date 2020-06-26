@@ -1,0 +1,209 @@
+<html>
+    
+    <head>
+        <title>Home</title>
+        <link rel="stylesheet" href="mystyles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="eminem.json"></script>
+        <style>* {
+          box-sizing: border-box;
+        }
+
+        .row {
+          display: flex;
+        }
+
+        /* Create three equal columns that sits next to each other */
+        .column {
+          flex: 50%;
+          padding: 10px;
+        }       
+        </style>
+
+    
+    </head>
+    
+    <body>
+        
+        <div class="topnav">
+          <a class="active" href="index.html">Home</a>
+          <a href="contact.html">Contact</a>
+          <a href="about.html">About</a>
+          <a href="hackertyper.html">Hackertyper</a>
+          <a href="Flashing.html">Warning</a>
+          <button class="inputbox" onclick="myfunction()">
+          <i class="fa fa-check-square" style="font-size:20px"></i>
+          </button>
+          <input class="inputbox" id="myinput">    
+        </div>
+        
+        
+        <div id="info"></div>
+        
+        
+        <div class="row">
+          <div class="column">
+            <div class="picture">
+              <a href="https://en.wikipedia.org/wiki/The_Eminem_Show">
+              <img src="theeminemshow.jpg" style="width: 100%" height="270">
+              <div class="container2">
+              <p>The Eminem Show</p>
+              </div>
+              </a>
+            </div>
+          </div>
+          <div class="column">
+            <div class="picture">
+              <a href="https://en.wikipedia.org/wiki/The_Marshall_Mathers_LP">
+              <img src="themarshallmatherslp.jpg" style="width: 100%" height="250">
+              <div class="container2">
+              <p>THE MARSHALLMATHERS LP</p>
+              </div>
+              </a>
+            </div>
+            </div>
+            <div class="column">
+            <div class="picture">
+              <a href="https://en.wikipedia.org/wiki/The_Marshall_Mathers_LP_2">
+              <img src="themarshallmatherslp2.jpg" style="width: 100%" height="250">
+              <div class="container2">
+              <p>THE MARSHALLMATHERS LP 2</p>
+              </div>
+              </a>
+            </div>
+            </div>
+            <div class="column">
+            <div class="picture">
+              <a href="https://en.wikipedia.org/wiki/Relapse_(Eminem_album)">
+              <img src="relapse.jpg" style="width: 100%" height="270">
+              <div class="container2">
+              <p>Relapse</p>
+              </div>
+              </a>
+            </div>
+            </div>
+        </div>
+        
+        <div class="row">
+          <div class="column">
+            <div class="picture">
+              <a href="https://en.wikipedia.org/wiki/The_Slim_Shady_LP">
+              <img src="slimshadylp.jpg" style="width: 100%" height="270">
+              <div class="container2">
+              <p>Slim Shady LP</p>
+              </div>
+              </a>
+            </div>
+          </div>
+          <div class="column">
+            <div class="picture">
+              <a href="https://en.wikipedia.org/wiki/Recovery_(Eminem_album)">
+              <img src="recovery.jpg" style="width: 100%" height="270">
+              <div class="container2">
+              <p>Recovery</p>
+              </div>
+              </a>
+            </div>
+            </div>
+            <div class="column">
+            <div class="picture">
+              <a href="https://en.wikipedia.org/wiki/The_Marshall_Mathers_LP_2">
+              <img src="musictobemurderedby.jpg" style="width: 100%" height="250">
+              <div class="container2">
+              <p>Music to Be Murdered By</p>
+              </div>
+              </a>
+            </div>
+            </div>
+            <div class="column">
+            <div class="picture">
+              <a href="https://en.wikipedia.org/wiki/Kamikaze_(Eminem_album)">
+              <img src="kamikaze.jpg" style="width: 100%" height="270">
+              <div class="container2">
+              <p>KAMIKAZE</p>
+              </div>
+              </a>
+            </div>
+            </div>
+        </div>
+                <div class="row">
+          <div class="column">
+            <div class="picture">
+              <a href="https://en.wikipedia.org/wiki/8_Mile:_Music_from_and_Inspired_by_the_Motion_Picture">
+              <img src="8mile.jpg" style="width: 100%" height="270">
+              <div class="container2">
+              <p>8 Mile</p>
+              </div>
+              </a>
+            </div>
+          </div>
+          <div class="column">
+            <div class="picture">
+              <a href="https://en.wikipedia.org/wiki/Revival_(Eminem_album)">
+              <img src="revival.jpg" style="width: 100%" height="270">
+              <div class="container2">
+              <p>Revival</p>
+              </div>
+              </a>
+            </div>
+            </div>
+            <div class="column">
+            <div class="picture">
+              <a href="https://en.wikipedia.org/wiki/Infinite_(Eminem_album)">
+              <img src="infinite.png" style="width: 100%" height="250">
+              <div class="container2">
+              <p>Infinite</p>
+              </div>
+              </a>
+            </div>
+            </div>
+            <div class="column">
+            <div class="picture">
+              <a href="https://en.wikipedia.org/wiki/Encore_(Eminem_album)">
+              <img src="encore.jpg" style="width: 100%" height="270">
+              <div class="container2">
+              <p>Encore</p>
+              </div>
+              </a>
+            </div>
+            </div>
+        </div>
+            
+        
+        
+            
+        
+        
+        
+        
+        
+        
+    </body>
+    
+    <script>
+    
+        function myfunction() {
+            
+            //data = [{Eminem:"Lose Yourself", Albums:"8 Miles"}, {Eminem:"Rap God", Albums:"Rap God"}, {Eminem:"Legacy", Albums:"The Marshall Mathers LP 2 (Deluxe)"}];
+            
+            myinput = document.getElementById("myinput");
+            mydiv = document.getElementById("info");
+            
+            for (i=0;i<data.length;i++) {
+                if (data[i]['song_name'].toLowerCase() == myinput.value.toLowerCase()) {
+                    //alert(data[i]['album_name']);
+                    //alert(data[i]['link'])
+                    //alert(data[i]['cover'])
+                    //alert(data[i]['author'])
+                    mydiv.innerHTML = "<h1>" +data[i]['album_name']+ data[i]['link']+ "</h1>"
+                    
+                    break;
+                }
+            }
+            
+            myinput.value = "";
+        }        
+    </script>
+    
+    
+</html>
